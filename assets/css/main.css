@@ -1,0 +1,109 @@
+.top-header {
+  padding: 10px 0;
+  background-color: #1E1F29;
+}
+.top-header .leftWriteBox,
+.top-header .rightWriteBox {
+  width: 50%;
+}
+.top-header .rightWriteBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-header nav {
+  display: flex;
+  gap: 15px;
+}
+.top-header nav a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #D10024;
+  transition: 0.2s;
+}
+.top-header nav a span {
+  color: #ffffff;
+  transition: 0.2s;
+}
+.top-header nav a:hover span {
+  color: #D10024;
+}
+
+.header {
+  background-color: #15161D;
+  padding: 15px 0;
+}
+.header .logo {
+  width: 30%;
+}
+.header .searchBox {
+  width: 40%;
+  display: flex;
+  height: 40px;
+}
+.header .search {
+  width: 191px;
+  padding: 0 15px;
+}
+.header select {
+  border-radius: 40px 0px 0px 40px;
+  width: 151px;
+  padding: 0 15px;
+}
+.header button {
+  border-radius: 0px 40px 40px 0px;
+  border: none;
+  background-color: #D10024;
+  color: #ffffff;
+  padding: 0 20px;
+}
+.header .iconBox {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header nav {
+  color: #ffffff;
+  display: flex;
+  gap: 10px;
+}
+.header nav a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.align-center {
+  align-items: center;
+}
+
+button {
+  outline: none;
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
